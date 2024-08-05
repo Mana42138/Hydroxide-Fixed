@@ -1,3 +1,5 @@
+print("Hello world!")
+
 local environment = assert(getgenv, "<OH> ~ Your exploit is not supported")()
 
 local req = (syn and syn.request) or (http and http.request) or http_request
